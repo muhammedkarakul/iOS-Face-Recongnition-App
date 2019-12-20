@@ -9,7 +9,7 @@
 import UIKit
 import RealityKit
 
-class ViewController: UIViewController {
+class LandingViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     

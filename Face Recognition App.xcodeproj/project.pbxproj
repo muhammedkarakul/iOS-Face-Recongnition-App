@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		573C3BE023ACA2A000A9FFD5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3BDF23ACA2A000A9FFD5 /* RegisterViewController.swift */; };
+		573C3BE223ACA2B200A9FFD5 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C3BE123ACA2B200A9FFD5 /* Register.storyboard */; };
 		5792422523ABAACD00A84579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5792422423ABAACD00A84579 /* AppDelegate.swift */; };
-		5792422723ABAACD00A84579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5792422623ABAACD00A84579 /* ViewController.swift */; };
+		5792422723ABAACD00A84579 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5792422623ABAACD00A84579 /* LandingViewController.swift */; };
 		5792422923ABAACD00A84579 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 5792422823ABAACD00A84579 /* Experience.rcproject */; };
-		5792422C23ABAACD00A84579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5792422A23ABAACD00A84579 /* Main.storyboard */; };
+		5792422C23ABAACD00A84579 /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5792422A23ABAACD00A84579 /* Landing.storyboard */; };
 		5792422E23ABAACE00A84579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5792422D23ABAACE00A84579 /* Assets.xcassets */; };
 		5792423123ABAACE00A84579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5792422F23ABAACE00A84579 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		573C3BDF23ACA2A000A9FFD5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		573C3BE123ACA2B200A9FFD5 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		5792422123ABAACD00A84579 /* Face Recognition App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Recognition App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5792422423ABAACD00A84579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5792422623ABAACD00A84579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5792422623ABAACD00A84579 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		5792422823ABAACD00A84579 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
-		5792422B23ABAACD00A84579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5792422B23ABAACD00A84579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Landing.storyboard; sourceTree = "<group>"; };
 		5792422D23ABAACE00A84579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5792423023ABAACE00A84579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5792423223ABAACE00A84579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +41,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		573C3BD723ACA19B00A9FFD5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				573C3BDC23ACA25A00A9FFD5 /* Register */,
+				573C3BD823ACA1C000A9FFD5 /* Landing */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		573C3BD823ACA1C000A9FFD5 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				573C3BDA23ACA1D700A9FFD5 /* Storyboards */,
+				573C3BD923ACA1CD00A9FFD5 /* Classes */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		573C3BD923ACA1CD00A9FFD5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5792422623ABAACD00A84579 /* LandingViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		573C3BDA23ACA1D700A9FFD5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5792422A23ABAACD00A84579 /* Landing.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		573C3BDB23ACA23400A9FFD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				573C3BE723ACA3E700A9FFD5 /* Plists */,
+				573C3BE623ACA3D400A9FFD5 /* Launch Screens */,
+				573C3BE523ACA3BB00A9FFD5 /* 3D Models */,
+				573C3BE423ACA3AD00A9FFD5 /* App Delegates */,
+				573C3BE323ACA39500A9FFD5 /* Assets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		573C3BDC23ACA25A00A9FFD5 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				573C3BDE23ACA26E00A9FFD5 /* Storyboards */,
+				573C3BDD23ACA26700A9FFD5 /* Classes */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		573C3BDD23ACA26700A9FFD5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				573C3BDF23ACA2A000A9FFD5 /* RegisterViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		573C3BDE23ACA26E00A9FFD5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				573C3BE123ACA2B200A9FFD5 /* Register.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		573C3BE323ACA39500A9FFD5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5792422D23ABAACE00A84579 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		573C3BE423ACA3AD00A9FFD5 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5792422423ABAACD00A84579 /* AppDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		573C3BE523ACA3BB00A9FFD5 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				5792422823ABAACD00A84579 /* Experience.rcproject */,
+			);
+			path = "3D Models";
+			sourceTree = "<group>";
+		};
+		573C3BE623ACA3D400A9FFD5 /* Launch Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5792422F23ABAACE00A84579 /* LaunchScreen.storyboard */,
+			);
+			path = "Launch Screens";
+			sourceTree = "<group>";
+		};
+		573C3BE723ACA3E700A9FFD5 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				5792423223ABAACE00A84579 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
 		5792421823ABAACD00A84579 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +171,8 @@
 		5792422323ABAACD00A84579 /* Face Recognition App */ = {
 			isa = PBXGroup;
 			children = (
-				5792422423ABAACD00A84579 /* AppDelegate.swift */,
-				5792422623ABAACD00A84579 /* ViewController.swift */,
-				5792422823ABAACD00A84579 /* Experience.rcproject */,
-				5792422A23ABAACD00A84579 /* Main.storyboard */,
-				5792422D23ABAACE00A84579 /* Assets.xcassets */,
-				5792422F23ABAACE00A84579 /* LaunchScreen.storyboard */,
-				5792423223ABAACE00A84579 /* Info.plist */,
+				573C3BDB23ACA23400A9FFD5 /* Supporting Files */,
+				573C3BD723ACA19B00A9FFD5 /* Features */,
 			);
 			path = "Face Recognition App";
 			sourceTree = "<group>";
@@ -127,7 +237,8 @@
 			files = (
 				5792423123ABAACE00A84579 /* LaunchScreen.storyboard in Resources */,
 				5792422E23ABAACE00A84579 /* Assets.xcassets in Resources */,
-				5792422C23ABAACD00A84579 /* Main.storyboard in Resources */,
+				5792422C23ABAACD00A84579 /* Landing.storyboard in Resources */,
+				573C3BE223ACA2B200A9FFD5 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +249,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5792422723ABAACD00A84579 /* ViewController.swift in Sources */,
+				5792422723ABAACD00A84579 /* LandingViewController.swift in Sources */,
 				5792422523ABAACD00A84579 /* AppDelegate.swift in Sources */,
 				5792422923ABAACD00A84579 /* Experience.rcproject in Sources */,
+				573C3BE023ACA2A000A9FFD5 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5792422A23ABAACD00A84579 /* Main.storyboard */ = {
+		5792422A23ABAACD00A84579 /* Landing.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5792422B23ABAACD00A84579 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Landing.storyboard;
 			sourceTree = "<group>";
 		};
 		5792422F23ABAACE00A84579 /* LaunchScreen.storyboard */ = {
@@ -286,7 +398,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ALBRJZ4KA;
-				INFOPLIST_FILE = "Face Recognition App/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Face Recognition App/Supporting Files/Plists/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +417,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ALBRJZ4KA;
-				INFOPLIST_FILE = "Face Recognition App/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Face Recognition App/Supporting Files/Plists/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
